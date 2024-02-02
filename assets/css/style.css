@@ -1,6 +1,9 @@
-#viajes, #destacados {
+#viajes, #destacados, #contacto {
     background: #000000 0% 0% no-repeat padding-box;
 }
-.card-body, footer {
+.card-body, footer, .btn {
     background: rgb(13, 202, 240) ;
+}
+.tooltip {
+    background: yellow;
 }
