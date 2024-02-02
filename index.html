@@ -14,37 +14,37 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Viajes Chile</title>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="30px">
-                    <image href="assets/img/viajes.svg" width="30px" height="30px" />
-                </svg>Viajes Chile
-            </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#somos">Quienes Somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#destacados">Destacados</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>
-<!-- CARRUSEL -->
-<div class="top-content d-none d-sm-none d-md-block d-lg-blog d-xl-block">
+<body id="viajes">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="30px">
+          <image href="assets/img/viajes.svg" width="30px" height="30px" />
+        </svg>Viajes Chile
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#somos">Quienes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#destacados">Destacados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- CARRUSEL -->
+  <div class="top-content d-none d-sm-none d-md-block d-lg-blog d-xl-block">
     <div class="container-fluid p-0">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner text-center">
@@ -66,10 +66,70 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-          </div>
-      </div>
-    </div> 
-    <!-- END CARRUSEL -->
+        </div>
+    </div>
+  </div> 
+  <!-- END CARRUSEL -->
+  <!-- CARD de destacados-->
+  <main id="destacados" class="container text-white pt-5 pb-5">
+    <div class="row" >
+      <h1 class="text-center pb-3">DESTACADOS</h1>
+        <div class="col-12 col-md-3 pb-2">
+            <div class="card m-auto">
+                <img src="assets/img/card1.jpg" class="card-img-top" alt="Lagos">
+                <div class="card-body">
+                    <h5 class="card-title">LAGOS</h5>
+                    <p class="card-text mb-0"><small>Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-3 pb-2">
+            <div class="card m-auto" >
+                <img src="assets/img/card2.jpg" class="card-img-top" alt="Salares">
+                <div class="card-body">
+                    <h5 class="card-title">SALARES</h5>
+                    <p class="card-text mb-0"><small>Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</small></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-md-3 pb-2">
+            <div class="card m-auto" >
+                <img src="assets/img/card3.jpg" class="card-img-top" alt="Glaciares">
+                <div class="card-body">
+                    <h5 class="card-title">GLACIARES</h5>
+                    <p class="card-text mb-0"><small>Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-3 pb-2">
+            <div class="card m-auto" >
+                <img src="assets/img/card4.jpg" class="card-img-top" alt="Cordillera">
+                <div class="card-body">
+                    <h5 class="card-title">CORDILLERA</h5>
+                    <p class="card-text mb-0"><small>Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </main>
+  <!-- FIN DE CARDS -->
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-6 text-center my-3 d-flex align-items-center justify-content-center">
+                <p class="fs-3 text-white align-middle m-0">VIAJES CHILE</p>
+            </div>
+            <div class="col-md-5 col-6 d-flex align-items-center gap-2 justify-content-end text-white">
+                <i class="fa-brands fa-square-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+            </div>
+        </div>
+    </div>
+  </footer>
+
 	<!-- Js y popper de bootstrap -->
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

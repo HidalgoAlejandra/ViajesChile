@@ -1,6 +1,8 @@
 body {
-    background:#000000;
 }
-footer {
+#viajes, #destacados {
+    background: #000000 0% 0% no-repeat padding-box;
+}
+.card-body, footer {
     background: rgb(13, 202, 240) ;
 }
