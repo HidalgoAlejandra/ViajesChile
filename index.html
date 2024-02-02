@@ -19,6 +19,8 @@
     <title>Viajes Chile</title>
 </head>
 <body id="viajes">
+<!-- NAV Barra de navegación fija en la parte superior de la pantalla (fixed-top) y transparente, con el logo y links a
+diferentes secciones de la página, haciendo un smooth scroll de 1000 -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
@@ -47,8 +49,8 @@
       </div>
     </div>
   </nav>
-  <!-- CARRUSEL -->
-  <div class="top-content d-none d-sm-none d-md-block d-lg-blog d-xl-block">
+  <!-- CARRUSEL Un carousel que muestra las imágenes del sitio, ubicado al borde superior de la pagina-->
+  <div class="top-content">
     <div class="container-fluid p-0">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner text-center">
@@ -73,7 +75,8 @@
         </div>
     </div>
   </div>
-  <!-- END CARRUSEL -->
+  <!-- HEADER Una sección de presentación, utilizando favicons y 3 párrafos (que desaparecen en
+tamaños pequeños de pantalla). Al hacer doble click sobre parrafos se ponen rojos -->
   <header id="somos" class="container text-white pt-5 pb-2 d-none d-sm-none d-lg-blog d-xl-block">
     <div class="row" >
       <h1 class="text-center pb-3 border-bottom">¿QUIÉNES SOMOS?</h1>
@@ -91,7 +94,8 @@
         </div>
       </div>
   </header>
-  <!-- CARD de destacados-->
+  <!-- CARD Sección de destacados, que muestre 4 cards (tarjetas) con la imagen e
+información asociada. Al hacer click en titulo desaparece y aparece descripcion de las tarjetas-->
   <main id="destacados" class="container text-white pt-5 pb-2">
     <div class="row" >
       <h1 class="text-center pb-3 border-bottom">DESTACADOS</h1>
@@ -133,7 +137,8 @@
         </div>
     </div>
   </main>
-  <!-- FIN DE CARDS -->
+  <!-- Formulario de contacto. Al pasar sobre boton al lado derecho aparece un tooltip con un mensaje, 
+    al hacer click manda mensaje de alerta  -->
   <section id="contacto" class="container text-white pt-5 pb-5">
     <h1 class="text-center pb-3 border-bottom">CONTACTO</h1>
     <form class="pt-2">
@@ -158,6 +163,7 @@
       data-bs-title="Presiona para enviar Contacto">Enviar</button>
     </form>
   </section>
+  <!-- Sección footer con links a las redes sociales -->
   <footer>
     <div class="container">
         <div class="row">
