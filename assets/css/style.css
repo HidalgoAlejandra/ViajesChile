@@ -1,7 +1,7 @@
 #viajes, #destacados, #contacto {
     background: #000000 0% 0% no-repeat padding-box;
 }
-#enviarcontacto, .card-body, footer {
+#enviarcontacto, .icono, .card-body, footer {
     background: rgb(13, 202, 240) ;
 }
 .tooltip {
